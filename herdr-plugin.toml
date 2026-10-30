@@ -1,0 +1,16 @@
+id = "fahim.plan-sharer"
+name = "Plan Sharer"
+version = "0.1.0"
+min_herdr_version = "0.9.1"
+description = "Copy or export the latest Codex or Claude plan from the focused pane."
+platforms = ["macos"]
+
+[[actions]]
+id = "copy"
+title = "Copy latest plan"
+command = ["python3", "plan_sharer.py", "copy"]
+
+[[actions]]
+id = "export"
+title = "Export latest plan"
+command = ["python3", "plan_sharer.py", "export"]
